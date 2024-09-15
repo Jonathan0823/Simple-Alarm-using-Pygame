@@ -1,7 +1,6 @@
 import time
 import datetime
 import pygame
-import os
 
 def set_alarm(alarm_time):
     print(f"Alarm set for {alarm_time}")

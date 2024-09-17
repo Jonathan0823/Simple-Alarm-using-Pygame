@@ -25,5 +25,7 @@ def set_alarm(alarm_time):
     pass
 
 if __name__ == "__main__":
+    pygame.mixer.pre_init(44100, -16, 2, 2048)
+
     alarm = input("Enter the time to set alarm: HH:MM:SS :")
     set_alarm(alarm)
